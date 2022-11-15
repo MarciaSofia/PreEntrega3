@@ -1,6 +1,7 @@
 *{
     margin: 0;
     padding: 0;
+    font-family: Kaisei Opti;
 }
 /* HEADER */
 header{
@@ -9,11 +10,10 @@ header{
     background-color: #CBDEF6;
     width: 100%;
 }
-.epigrafes{
-    font-family: Kaisei Opti;
-}
+
+/* FOOTER */
 footer{
-    background-image: url(../images/Captura\ de\ Pantalla\ 2022-08-03\ a\ la\(s\)\ 20.29.33.png);
+    background-image: url(../images/footer.jpg);
     background-size: cover;
     padding-top: 2%;
     text-align:center;
@@ -25,19 +25,20 @@ footer div div nav ul li{
     margin-top: 4%;   
 }
 
-.imgsucs{
-    width: 100%;
+/* CARROUSEL*/
+.epigrafes{
+    font-family: Kaisei Opti;
 }
-.grillasuc{  
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    gap: 2% 2%;
-    grid-auto-flow: row;
-}
-  
-
 .imgcarr{
     height: 700px;
+}
+
+/* NUESTROSCAFES */
+.subt-index1{
+    font-family: Playfair Display;
+    font-size: 2.5rem;
+    color: black;
+    text-align: center;
 }
 .imgprod{
     width: 150px;
@@ -53,28 +54,46 @@ footer div div nav ul li{
 .carritoimg:hover{
     transform: scale(2);
 }
-
 .tarjeta{
     text-align: center;
     align-items: center;
     background-color: #CBDEF6;
 }
-.subt-index1{
-    font-family: Playfair Display;
-    font-size: 2.5rem;
-    color: black;
-    text-align: center;
-}
+
+/* NUESTRASUCURSAL */
 .subt-index2{
     font-family: Playfair Display;
     font-size: 2.5rem;
     color: black;
     text-align: center;
 }
+.grillasuc{  
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 2% 2%;
+    grid-auto-flow: row;
+}  
+.imgsucs{
+    width: 100%;
+}
 
-
-.imgsuc{
-    height: 900px;
+/* MAIN SUCURSAL */
+.mainsuc{
+    background-image: url(../images/coffee-g7f6eeea9d_1920.jpg);
+    background-size: cover;
+    color: white;
+    margin-bottom: 0;
+}
+.fotosuc{
+    border-radius: 5%;
+    border: 7px double white;
+    
+}
+.botonmenu{
+    transition: 0.3s;
+}
+.botonmenu:hover{
+    transform: scale(1.5);
 }
 /* MAIN NOSOTROS */
 .art_main_nos h2{
