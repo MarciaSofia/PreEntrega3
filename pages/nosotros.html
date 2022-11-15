@@ -1,36 +1,74 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- ICONO FAVICON -->
     <link rel="shortcut icon" href="../images/ICONONOS.png" type="image/x-icon">
+    <!-- FUENTES -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;600&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kaisei+Opti:wght@700&display=swap" rel="stylesheet">
+    <!-- AOS ANIMATIONS -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <!-- BOOTSTRAP -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
     <!-- CSS -->
     <link rel="stylesheet" href="../css/style.css">
     <title>NOSOTROS</title>
 </head>
+
 <body>
-    <header>
-        <!-- BARRA DE NAVEGACION -->
-        <nav class="navBar">
-            <ul>
-                <li><a href="./compra_online.html">COMPRA ONLINE</a></li>
-                <li><a href="./sucursal.html">SUCURSAL</a></li>
-                <li><a href="../index.html"><img src="../images/logo.png" alt="logo de la pagina" height="150px"></a></li>
-                <li><a href="#">NOSOTROS</a></li>
-                <li><a href="./ingresar.html">INGRESAR</a></li>                
-            </ul>
+    <!-- INICIO HEADER -->
+    <header class="header">
+        <nav class="navbar navbar-expand-lg">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="./index.html">
+                    <img src="../images/logo.png" alt="logo" width="180" height="130">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="navbar-nav">
+                        <a class="nav-link" aria-current="page" href="../index.html">INICIO</a>
+                        <a class="nav-link" href="../pages/compra_online.html">COMPRA ONLINE</a>
+                        <a class="nav-link" href="../pages/sucursal.html">SUCURSAL</a>
+                        <a class="nav-link active" href="#">NOSOTROS</a>
+                        <a class="nav-link" href="../pages/ingresar.html">INGRESAR</a>
+                    </div>
+                </div>
+            </div>
         </nav>
     </header>
+    <!-- FIN HEADER -->
     <main>
         <h1>NOSOTROS</h1>
         <!-- QUIENES SOMOS // HISTORIA DEL CAFE -->
         <article class="art_main_nos">
             <h2>QUIENES SOMOS</h2>
-            <h4>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Totam, nulla dolores quasi temporibus asperiores et neque laborum voluptate, commodi itaque aut amet necessitatibus. Quas, animi veniam ducimus distinctio at culpa fugiat explicabo! Animi fugit ea, reprehenderit nam delectus odit aspernatur nobis explicabo perspiciatis sed sint magnam dicta corporis veniam quod.</h4>
+            <h4>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Totam, nulla dolores quasi temporibus
+                asperiores et neque laborum voluptate, commodi itaque aut amet necessitatibus. Quas, animi veniam
+                ducimus distinctio at culpa fugiat explicabo! Animi fugit ea, reprehenderit nam delectus odit aspernatur
+                nobis explicabo perspiciatis sed sint magnam dicta corporis veniam quod.</h4>
             <h2>HISTORIA DEL CAFE</h2>
-            <h4>El café es originario de Kaffa, Etiopía. Cuenta la leyenda que kaldi, un pastor etíope, vio a sus cabras inquietas después de que estas ingirieran unos fritos rojos parecidos a cerezas. El hombre, curioso, se preparó una infusión con las hojas del arbusto donde crecian esos fritos y, si bien no alcanzo la excitación de sus cabras, se sintió lleno de energia. Kaldi decidió ir al monasterio vecino, contar a los monjes la historia de sus cabras y entregarles algunas hojas y fritos. Los monjes escucharon la historia y esa noche hicieron pruebas y cocciones con el frito, pero no les gustó, ni sintieron ninguna agitación. Entonces arrojaron las cerezas a la chimenea y cuando los granos comenzaron a tostarse, produjeron un aroma atractivo. Los monjes probaron una infusión con esos granos tostados y comprobaron que esa bebida los mantenia despiertos durante toda la noche.
+            <h4>El café es originario de Kaffa, Etiopía. Cuenta la leyenda que kaldi, un pastor etíope, vio a sus cabras
+                inquietas después de que estas ingirieran unos fritos rojos parecidos a cerezas. El hombre, curioso, se
+                preparó una infusión con las hojas del arbusto donde crecian esos fritos y, si bien no alcanzo la
+                excitación de sus cabras, se sintió lleno de energia. Kaldi decidió ir al monasterio vecino, contar a
+                los monjes la historia de sus cabras y entregarles algunas hojas y fritos. Los monjes escucharon la
+                historia y esa noche hicieron pruebas y cocciones con el frito, pero no les gustó, ni sintieron ninguna
+                agitación. Entonces arrojaron las cerezas a la chimenea y cuando los granos comenzaron a tostarse,
+                produjeron un aroma atractivo. Los monjes probaron una infusión con esos granos tostados y comprobaron
+                que esa bebida los mantenia despiertos durante toda la noche.
             </h4>
         </article>
         <!-- METODOS DE PREPARACION -->
@@ -40,38 +78,86 @@
             <!-- [[[AYUDA]]] aca en la parte de los videos estuve googleando que atributos ponerle para que se reproduciera automaticamente al scrollear, pero no me salio -->
             <div>
                 <h3>FILTRO HARIO V60</h3>
-                <h4>Es un método de extracción de café por goteo o Drip, que debe su nombre a la parábola o forma en V que tiene un ángulo de 60°. Este cono además en su cara interna cuenta con unas estrías que forman un espiral con dirección a la superficie o parte alta,característica que nos permite liberar el aire (y por supuesto CO2) a la hora de la preparación,maximizando así la expansión de la superficie de contacto de la molienda.</h4>
+                <h4>Es un método de extracción de café por goteo o Drip, que debe su nombre a la parábola o forma en V
+                    que tiene un ángulo de 60°. Este cono además en su cara interna cuenta con unas estrías que forman
+                    un espiral con dirección a la superficie o parte alta,característica que nos permite liberar el aire
+                    (y por supuesto CO2) a la hora de la preparación,maximizando así la expansión de la superficie de
+                    contacto de la molienda.</h4>
                 <video class="videosmetodos" src="../images/hariov6012.mov" controls loop muted></video>
             </div>
             <!-- METODO 2 -->
             <div>
                 <h3>CHEMEX</h3>
-                <h4>la Chemex nos permite preparar una taza de café muy limpia y sin sedimentos, gracias a que cuenta con un filtro de papel a base de fibras naturales, que en promedio es un 30% más denso que los filtros tradicionales, este retiene más y mejor los aceites que quedan suspendidos durante la preparación y evitan que los sólidos lleguen a la bebida final; Su forma de embudo también evita que la extracción pierda temperatura y a su vez nos permite  ̈oxigenar ̈ la bebida lo que resulta en aromas muy intensos.</h4>
+                <h4>la Chemex nos permite preparar una taza de café muy limpia y sin sedimentos, gracias a que cuenta
+                    con un filtro de papel a base de fibras naturales, que en promedio es un 30% más denso que los
+                    filtros tradicionales, este retiene más y mejor los aceites que quedan suspendidos durante la
+                    preparación y evitan que los sólidos lleguen a la bebida final; Su forma de embudo también evita que
+                    la extracción pierda temperatura y a su vez nos permite ̈oxigenar ̈ la bebida lo que resulta en
+                    aromas muy intensos.</h4>
                 <video class="videosmetodos" src="../images/chemex.mov" controls loop muted></video>
             </div>
             <!-- METODO 3 -->
             <div>
                 <h3>AEROPRESS</h3>
-                <h4>Un diseño basado en dos cilindros de plástico (polipropileno) en forma de jeringa: un sistema que combina la inmersión (principio de la prensa francesa) con la presión (basado en la máquina de espresso), que en este caso no la ejerce un sistema hidráulico o eléctrico sino la fuerza que el brazo humano pueda imprimir sobre él. usando el método invertido, con molienda fina EL RESULTADO ES UNA BEBIDA que resaltará las notas ácidas cítricas y dulces, dejando así en la taza un cuerpo marcado.</h4>
+                <h4>Un diseño basado en dos cilindros de plástico (polipropileno) en forma de jeringa: un sistema que
+                    combina la inmersión (principio de la prensa francesa) con la presión (basado en la máquina de
+                    espresso), que en este caso no la ejerce un sistema hidráulico o eléctrico sino la fuerza que el
+                    brazo humano pueda imprimir sobre él. usando el método invertido, con molienda fina EL RESULTADO ES
+                    UNA BEBIDA que resaltará las notas ácidas cítricas y dulces, dejando así en la taza un cuerpo
+                    marcado.</h4>
                 <video class="videosmetodos" src="../images/aeropress.mov" controls loop muted></video>
             </div>
             <!-- METODO 4 -->
             <div>
                 <h3>PRENSA FRANCESA</h3>
-                <h4>Es un dispositivo de preparación por inmersión completa, el agua está en contacto con el café durante 3 o 4 minutos mediante un filtro de malla metálica. Este garantiza algo en particular, una extracción viscosa con mucho cuerpo y un incremento en la textura debido a que la mayoría de los aceites quedan en la extracción final</h4>
+                <h4>Es un dispositivo de preparación por inmersión completa, el agua está en contacto con el café
+                    durante 3 o 4 minutos mediante un filtro de malla metálica. Este garantiza algo en particular, una
+                    extracción viscosa con mucho cuerpo y un incremento en la textura debido a que la mayoría de los
+                    aceites quedan en la extracción final</h4>
                 <video class="videosmetodos" src="../images/prensa.mov" controls loop muted></video>
             </div>
         </article>
     </main>
-    <footer>
-        <!-- REDES SOCIALES  -->
-        <nav>
-            <ul>
-                <li><a href="http://www.facebook.com/"><img src="../images/logotipo-de-la-aplicacion-de-facebook.png" alt="logofacebbok" width="60px"></a></li>
-                <li><a href="http://www.twitter.com/"><img src="../images/signo-de-twitter.png" alt="logotw" width="60px"></a></li>
-                <li><a href="http://www.instagram.com/"><img src="../images/instagram.png" alt="logoinstagram" width="60px"></a></li>
-            </ul>
-        </nav>    
+    <!-- INICIO FOOTER -->
+    <footer class="container-fluid footer mt-2 p-3">
+        <div class="row">
+            <div class="col-sm-6">
+                <nav>
+                    <ul>
+                        <li><a href="http://www.facebook.com/"><img
+                                    src="../images/logotipo-de-la-aplicacion-de-facebook.png" alt="logofacebbok"
+                                    width="60px"></a></li>
+                        <li><a href="http://www.twitter.com/"><img src="../images/signo-de-twitter.png" alt="logotw"
+                                    width="60px"></a></li>
+                        <li><a href="http://www.instagram.com/"><img src="../images/instagram.png" alt="logoinstagram"
+                                    width="60px"></a></li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="col-sm-6">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d27366.419276040226!2d-64.5126750041698!3d-30.975995769376862!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x942d850c0d953f8f%3A0x4ea94e67bba9c237!2sLa%20Cumbre%2C%20C%C3%B3rdoba!5e0!3m2!1ses!2sar!4v1668488161672!5m2!1ses!2sar"
+                    class="img-fluid" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </div>
     </footer>
+    <!-- FIN DE FOOTER -->
+    <!-- AOS ANIMATIONS -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+    <!-- JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+        integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.min.js"
+        integrity="sha384-IDwe1+LCz02ROU9k972gdyvl+AESN10+x7tBKgc9I5HFtuNz0wWnPclzo6p9vxnk"
+        crossorigin="anonymous"></script>
 </body>
+
 </html>
