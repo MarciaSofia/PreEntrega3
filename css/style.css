@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/* HEADER */
+header{
+    font-family: Kaisei Opti;
+    font-size: 1.5rem;
+    background-color: #CBDEF6;
+    width: 100%;
+}
+.epigrafes{
+    font-family: Kaisei Opti;
+}
+footer{
+    background-image: url(../images/Captura\ de\ Pantalla\ 2022-08-03\ a\ la\(s\)\ 20.29.33.png);
+    background-size: cover;
+    padding-top: 2%;
+    text-align:center;
+}
+footer div div nav ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 6%;
+    margin-top: 4%;   
+}
+
+.imgsucs{
+    width: 100%;
+}
+.grillasuc{  
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 2% 2%;
+    grid-auto-flow: row;
+}
+  
+
+.imgcarr{
+    height: 700px;
+}
+.imgprod{
+    width: 150px;
+    transition: 0.4s;
+}
+.imgprod:hover{
+    transform: scale(1.3);
+}
+.carritoimg{
+    height: 30px;
+    transition: all 0.8s;
+}
+.carritoimg:hover{
+    transform: scale(2);
+}
+
+.tarjeta{
+    text-align: center;
+    align-items: center;
+    background-color: #CBDEF6;
+}
+.subt-index1{
+    font-family: Playfair Display;
+    font-size: 2.5rem;
+    color: black;
+    text-align: center;
+}
+.subt-index2{
+    font-family: Playfair Display;
+    font-size: 2.5rem;
+    color: black;
+    text-align: center;
+}
+
+
+.imgsuc{
+    height: 900px;
+}
+/* MAIN NOSOTROS */
+.art_main_nos h2{
+    color: white;
+    padding: 1%;
+    margin-bottom: 2%;
+    background-color:rgb(120, 111, 102) ;
+}
+.art_main_nos h3{
+    margin-bottom: 1%;
+    text-decoration: underline;
+    color: rgb(55, 5, 5);
+}
+.art_main_nos h4{
+    margin-bottom: 2%;
+}
+.art_main_nos video{
+    margin-bottom: 2%;
+}
+/* MAIN COMPRA ONLINE CAFES*/
+.titulomainshop{
+    padding: 2%;
+    background-color:rgb(120, 111, 102);
+}
+.botoncompra{
+    width: 50px;
+    height: 50px;   
+}
+
+/* MAIN COMPRA ONLINE UTENSILLOS*/
+.titulomainshoputensillos{
+    padding: 2%;
+    background-color:rgb(120, 111, 102);
+}
