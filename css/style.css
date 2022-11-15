@@ -11,6 +11,9 @@ header{
     width: 100%;
 }
 
+header .navbar-nav a:hover{
+    text-decoration-line: line-through;
+}
 /* FOOTER */
 footer{
     background-image: url(../images/footer.jpg);
@@ -120,6 +123,7 @@ footer div div nav ul li{
 .titulomainshop{
     padding: 2%;
     background-color:rgb(120, 111, 102);
+    margin-top: 1.3%;
 }
 .botoncompra{
     width: 50px;
@@ -128,6 +132,7 @@ footer div div nav ul li{
 
 /* MAIN COMPRA ONLINE UTENSILLOS*/
 .titulomainshoputensillos{
+    margin-top: 2%;
     padding: 2%;
     background-color:rgb(120, 111, 102);
 }
