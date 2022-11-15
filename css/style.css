@@ -110,6 +110,9 @@ footer div div nav ul li{
 .art_main_nos h4{
     margin-bottom: 2%;
 }
+.art_main_nos h5{
+    margin-bottom: 2%;
+}
 .art_main_nos video{
     margin-bottom: 2%;
 }
@@ -128,3 +131,14 @@ footer div div nav ul li{
     padding: 2%;
     background-color:rgb(120, 111, 102);
 }
+/* MEDIA QUERY */
+@media (max-width: 576px) { 
+    /* nosotros */
+    .art_main_nos h5{
+        display: none;
+    } 
+    /* footer */
+    footer div iframe{
+        display: none;
+    }
+ }
