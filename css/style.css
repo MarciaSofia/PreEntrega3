@@ -136,6 +136,14 @@ footer div div nav ul li{
     padding: 2%;
     background-color:rgb(120, 111, 102);
 }
+/* MAIN INGRESAR */
+.comentario{
+    outline: none;
+}
+.comentario:focus{
+    border: solid 2px brown;
+    border-radius: 5px;
+}
 /* MEDIA QUERY */
 @media (max-width: 576px) { 
     /* nosotros */
