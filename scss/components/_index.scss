@@ -1,0 +1,74 @@
+@import "../base/listas";
+@import "../base/variables";
+
+.subt-index1{
+    font-family: $ffont-principal;
+    font-size: nth($ftamaños, 2 );
+    color: black;
+    text-align: center;
+}
+.nuestros_cafes{
+    div{
+        div{
+            div .tarjeta{
+                text-align: center;
+                align-items: center;
+                background-color: nth($bg-colors, 1 );
+                img .imgprod{
+                    width: 150px;
+                    transition: 0.4s;
+                    &:hover{
+                        transform: scale(1.3);
+                    }
+                }
+                div{
+                    a{
+                        img .carritoimg{
+                            height: 30px;
+                            transition: all 0.8s;
+                            &:hover{
+                                transform: scale(2);
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+.imgprod{
+    width: 150px;
+    transition: 0.4s;
+    &:hover{
+        transform: scale(1.3);
+    }
+}
+.carritoimg{
+    height: 30px;
+    transition: all 0.8s;
+    &:hover{
+        transform: scale(2);
+    }
+}
+.tarjeta{
+    text-align: center;
+    align-items: center;
+    background-color: #CBDEF6;
+}
+
+.subt-index2 {
+    font-family:$ffont-secundario;
+    font-size: nth($ftamaños, 2 );
+    color: black;
+    text-align: center;
+}
+
+.grillasuc{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 2% 2%;
+    grid-auto-flow: row;
+    img{
+        width: 100%;
+    }
+}

@@ -1,0 +1,16 @@
+@import "../base/listas";
+@import "../base/variables";
+
+header{
+    font-family: $ffont-principal;
+    font-size: nth($ftamaños, 1 );
+    background-color: nth($bg-colors, 1 );
+    width: 100%;
+    nav{
+        a{
+            &:hover{
+                text-decoration-line: line-through;
+            }
+        }
+    }
+}

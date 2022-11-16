@@ -1,0 +1,157 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Kaisei Opti;
+}
+/* HEADER */
+header{
+    font-family: Kaisei Opti;
+    font-size: 1.5rem;
+    background-color: #CBDEF6;
+    width: 100%;
+}
+
+header .navbar-nav a:hover{
+    text-decoration-line: line-through;
+}
+/* FOOTER */
+footer{
+    background-image: url(../images/footer.jpg);
+    background-size: cover;
+    padding-top: 2%;
+    text-align:center;
+}
+footer div div nav ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 6%;
+    margin-top: 4%;   
+}
+
+/* CARROUSEL*/
+.epigrafes{
+    font-family: Kaisei Opti;
+}
+.imgcarr{
+    height: 700px;
+}
+
+/* NUESTROSCAFES */
+.subt-index1{
+    font-family: Playfair Display;
+    font-size: 2.5rem;
+    color: black;
+    text-align: center;
+}
+.imgprod{
+    width: 150px;
+    transition: 0.4s;
+}
+.imgprod:hover{
+    transform: scale(1.3);
+}
+.carritoimg{
+    height: 30px;
+    transition: all 0.8s;
+}
+.carritoimg:hover{
+    transform: scale(2);
+}
+.tarjeta{
+    text-align: center;
+    align-items: center;
+    background-color: #CBDEF6;
+}
+
+/* NUESTRASUCURSAL */
+.subt-index2{
+    font-family: Playfair Display;
+    font-size: 2.5rem;
+    color: black;
+    text-align: center;
+}
+.grillasuc{  
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 2% 2%;
+    grid-auto-flow: row;
+}  
+.imgsucs{
+    width: 100%;
+}
+
+/* MAIN SUCURSAL */
+.mainsuc{
+    background-image: url(../images/coffee-g7f6eeea9d_1920.jpg);
+    background-size: cover;
+    color: white;
+    margin-bottom: 0;
+}
+.fotosuc{
+    border-radius: 5%;
+    border: 7px double white;
+    
+}
+.botonmenu{
+    transition: 0.3s;
+}
+.botonmenu:hover{
+    transform: scale(1.5);
+}
+/* MAIN NOSOTROS */
+.art_main_nos h2{
+    color: white;
+    padding: 1%;
+    margin-bottom: 2%;
+    background-color:rgb(120, 111, 102) ;
+}
+.art_main_nos h3{
+    margin-bottom: 1%;
+    text-decoration: underline;
+    color: rgb(55, 5, 5);
+}
+.art_main_nos h4{
+    margin-bottom: 2%;
+}
+.art_main_nos h5{
+    margin-bottom: 2%;
+}
+.art_main_nos video{
+    margin-bottom: 2%;
+}
+/* MAIN COMPRA ONLINE CAFES*/
+.titulomainshop{
+    padding: 2%;
+    background-color:rgb(120, 111, 102);
+    margin-top: 1.3%;
+}
+.botoncompra{
+    width: 50px;
+    height: 50px;   
+}
+
+/* MAIN COMPRA ONLINE UTENSILLOS*/
+.titulomainshoputensillos{
+    margin-top: 2%;
+    padding: 2%;
+    background-color:rgb(120, 111, 102);
+}
+/* MAIN INGRESAR */
+.comentario{
+    outline: none;
+}
+.comentario:focus{
+    border: solid 2px brown;
+    border-radius: 5px;
+}
+/* MEDIA QUERY */
+@media (max-width: 576px) { 
+    /* nosotros */
+    .art_main_nos h5{
+        display: none;
+    } 
+    /* footer */
+    footer div iframe{
+        display: none;
+    }
+}

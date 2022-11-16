@@ -1,0 +1,29 @@
+@import "../base/listas";
+@import "../base/variables";
+
+main .mainsuc{
+    background-image: url(../images/coffee-g7f6eeea9d_1920.jpg);
+    background-size: cover;
+    color: white;
+    margin-bottom: 0;
+    section{
+        article{
+            div{
+                img{
+                    border-radius: 5%;
+                    border: 7px double white;
+                }
+            }
+        }
+        article{
+            div{
+                button{
+                    transition: 0.3s;
+                    &:hover{
+                        transform: scale(1.5);
+                    }
+                }
+            }
+        }
+    }
+}
