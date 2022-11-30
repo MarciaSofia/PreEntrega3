@@ -25,8 +25,8 @@ footer {
 footer div div nav ul li {
   list-style: none;
   display: inline-block;
-  padding: 6%;
-  margin-top: 4%;
+  padding: 1%;
+  margin-top: 1%;
 }
 
 @media (max-width: 576px) {
