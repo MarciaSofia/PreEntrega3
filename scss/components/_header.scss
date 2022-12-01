@@ -3,13 +3,14 @@
 
 header{
     font-family: $ffont-principal;
-    font-size: nth($ftamaños, 1 );
+    font-size: nth($ftamaños, 3 );
     background-color: nth($bg-colors, 1 );
     width: 100%;
-    nav{
+    div .navbar-nav{
         a{
             &:hover{
-                text-decoration-line: line-through;
+                border-style:ridge;
+                border-color: rgb(143, 210, 251);    
             }
         }
     }

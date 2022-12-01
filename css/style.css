@@ -5,12 +5,13 @@
 /* family font */
 header {
   font-family: Kaisei Opti;
-  font-size: 1.5rem;
+  font-size: 1rem;
   background-color: #CBDEF6;
   width: 100%;
 }
-header nav a:hover {
-  text-decoration-line: line-through;
+header div .navbar-nav a:hover {
+  border-style: ridge;
+  border-color: rgb(143, 210, 251);
 }
 
 /* font-sizes */
@@ -19,8 +20,6 @@ header nav a:hover {
 footer {
   background-image: url(../images/footer.jpg);
   background-size: cover;
-  padding-top: 2%;
-  text-align: center;
 }
 footer div div nav ul li {
   list-style: none;
@@ -29,12 +28,6 @@ footer div div nav ul li {
   margin-top: 1%;
 }
 
-@media (max-width: 576px) {
-  /* footer */
-  footer div iframe {
-    display: none;
-  }
-}
 /* font-sizes */
 /* colores de fondo */
 /* family font */
@@ -45,6 +38,15 @@ footer div div nav ul li {
   text-align: center;
 }
 
+.epigrafes {
+  font-family: Kaisei Opti;
+  background-color: rgb(120, 78, 24);
+  border-radius: 10%;
+}
+
+.nuestros_cafes div {
+  font-family: Playfair Display;
+}
 .nuestros_cafes div div div .tarjeta {
   text-align: center;
   align-items: center;
@@ -107,10 +109,14 @@ footer div div nav ul li {
 /* font-sizes */
 /* colores de fondo */
 /* family font */
+main {
+  font-family: Kaisei Opti;
+}
 main h2 {
   margin-top: 2%;
   padding: 2%;
   background-color: rgb(120, 111, 102);
+  color: white;
 }
 
 .comentario {
@@ -171,6 +177,9 @@ main .mainsuc section article div button {
 }
 main .mainsuc section article div button:hover {
   transform: scale(1.5);
+}
+main .mainsuc section article div button a {
+  text-decoration: none;
 }
 
 /*# sourceMappingURL=style.css.map */

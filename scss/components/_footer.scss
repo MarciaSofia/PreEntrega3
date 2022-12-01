@@ -4,8 +4,6 @@
 footer{
     background-image: url(../images/footer.jpg);
     background-size: cover;
-    padding-top: 2%;
-    text-align:center;
     div{
         div{
             nav{
@@ -19,11 +17,5 @@ footer{
                 }
             }
         }
-    }
-}
-@media (max-width: 576px) { 
-    /* footer */
-    footer div iframe{
-        display: none;
     }
 }
