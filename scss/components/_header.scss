@@ -5,7 +5,6 @@ header{
     font-family: $ffont-principal;
     font-size: nth($ftamaños, 3 );
     background-color: nth($bg-colors, 1 );
-    width: 100%;
     div .navbar-nav{
         a{
             &:hover{
