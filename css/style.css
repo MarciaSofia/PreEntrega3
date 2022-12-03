@@ -119,6 +119,13 @@ main h2 {
   color: white;
 }
 
+.MainIN {
+  background-image: url(/images/wepik-photo-mode-2022112-21924.png);
+  background-size: cover;
+  margin: 0;
+  padding: 0;
+}
+
 .comentario {
   outline: none;
 }
